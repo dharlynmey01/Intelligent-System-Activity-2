@@ -1,0 +1,47 @@
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: yellowgreen;
+    box-shadow: 0 4px 8px whitesmoke;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+#label-container {
+    width: 50%;
+    display: contents;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#webcam-container {
+    width: 50%;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
